@@ -1,0 +1,31 @@
+{
+  "name": "downloader-server",
+  "version": "1.0.0",
+  "description": "Secure yt-dlp metadata extraction API (no file hosting)",
+  "main": "server.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "keywords": [
+    "yt-dlp",
+    "video-extractor",
+    "metadata-api",
+    "secure-backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.3.0",
+    "helmet": "^7.0.0"
+  }
+}
